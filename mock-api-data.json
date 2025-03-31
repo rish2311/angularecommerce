@@ -1,34 +1,107 @@
-{
-  "user": [
-    {
-      "name": "Ayush",
-      "mobNumber": "12345678",
-      "age": 29,
-      "dob": "1997-05-23",
-      "email": "admin@gmail.com",
-      "password": "12345678",
-      "address": {
-        "addline1": "District Center",
-        "addLine2": "Delhi Cantt",
-        "city": "New Delhi",
-        "state": "Delhi",
-        "zipCode": "110954"
-      },
-      "language": [
-        "English",
-        "Hindi",
-        "Bhojpuri",
-        "kannada"
-      ],
-      "gender": "Male",
-      "aboutYou": "I am a programmer...",
-      "uploadPhoto": "rishabh.png",
-      "agreetc": true,
-      "role": "admin",
-      "id": 1
-      }
-    ],
-    [
-      
-    ]
-}
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "image": "https://example.com/images/wireless-mouse.jpg",
+    "description": "A high precision wireless mouse with an ergonomic design and long battery life."
+  },
+  {
+    "id": 2,
+    "name": "Leather Wallet",
+    "category": "Accessories",
+    "image": "https://example.com/images/leather-wallet.jpg",
+    "description": "Premium quality leather wallet with multiple card slots and a sleek finish."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "image": "https://example.com/images/bluetooth-speaker.jpg",
+    "description": "Portable Bluetooth speaker offering crystal-clear sound and deep bass."
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "image": "https://example.com/images/running-shoes.jpg",
+    "description": "Lightweight running shoes designed for comfort and optimal performance."
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch",
+    "category": "Wearables",
+    "image": "https://example.com/images/smart-watch.jpg",
+    "description": "A stylish smart watch featuring health tracking, notifications, and customizable watch faces."
+  },
+  {
+    "id": 6,
+    "name": "Gaming Keyboard",
+    "category": "Electronics",
+    "image": "https://example.com/images/gaming-keyboard.jpg",
+    "description": "Mechanical keyboard with customizable RGB lighting and anti-ghosting technology."
+  },
+  {
+    "id": 7,
+    "name": "Desk Lamp",
+    "category": "Home Decor",
+    "image": "https://example.com/images/desk-lamp.jpg",
+    "description": "Modern desk lamp with adjustable brightness and a sleek design."
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "category": "Accessories",
+    "image": "https://example.com/images/backpack.jpg",
+    "description": "Durable and spacious backpack ideal for work, travel, or school."
+  },
+  {
+    "id": 9,
+    "name": "Coffee Maker",
+    "category": "Home Appliances",
+    "image": "https://example.com/images/coffee-maker.jpg",
+    "description": "Automatic coffee maker with programmable settings and a built-in grinder."
+  },
+  {
+    "id": 10,
+    "name": "LED Monitor",
+    "category": "Electronics",
+    "image": "https://example.com/images/led-monitor.jpg",
+    "description": "High-resolution LED monitor with a slim design and vibrant colors."
+  },
+  {
+    "id": 11,
+    "name": "Fitness Tracker",
+    "category": "Wearables",
+    "image": "https://example.com/images/fitness-tracker.jpg",
+    "description": "Compact fitness tracker that monitors your daily activity and sleep patterns."
+  },
+  {
+    "id": 12,
+    "name": "Digital Camera",
+    "category": "Electronics",
+    "image": "https://example.com/images/digital-camera.jpg",
+    "description": "Lightweight digital camera designed to capture high-quality photos on the go."
+  },
+  {
+    "id": 13,
+    "name": "Water Bottle",
+    "category": "Accessories",
+    "image": "https://example.com/images/water-bottle.jpg",
+    "description": "Eco-friendly, insulated water bottle that keeps beverages cold or hot for hours."
+  },
+  {
+    "id": 14,
+    "name": "Sneakers",
+    "category": "Footwear",
+    "image": "https://example.com/images/sneakers.jpg",
+    "description": "Casual sneakers combining comfort and style for everyday wear."
+  },
+  {
+    "id": 15,
+    "name": "Portable Charger",
+    "category": "Electronics",
+    "image": "https://example.com/images/portable-charger.jpg",
+    "description": "High-capacity portable charger to keep your devices powered on the go."
+  }
+]

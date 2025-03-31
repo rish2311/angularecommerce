@@ -25,7 +25,7 @@ export class ApiService {
     return this.http.get(path, { params }).pipe(catchError(this.formatErrors));
   }
 
-  put(path: string, params: Object = {}): Observable<any> {
+  put(path: string, body: Object = {}): Observable<any> {
     return this.http
       .put(path, JSON.stringify(body), this.httpOptions)
       .pipe(catchError(this.formatErrors));

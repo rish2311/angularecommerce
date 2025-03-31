@@ -1,6 +1,5 @@
+import { LoginSignupService } from './../../../src/app/shared/services/login-signup.service';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { LoginSignupComponent } from './login-signup.service';
 
 describe('LoginSignupComponent', () => {
   let component: LoginSignupComponent;
@@ -9,8 +8,7 @@ describe('LoginSignupComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [LoginSignupComponent]
-    })
-    .compileComponents();
+    }).compileComponents();
 
     fixture = TestBed.createComponent(LoginSignupComponent);
     component = fixture.componentInstance;

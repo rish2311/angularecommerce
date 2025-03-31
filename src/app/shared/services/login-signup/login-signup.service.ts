@@ -1,28 +1,26 @@
+import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { ApiService } from './../../../core/service/api.service';
 import { Observable } from 'rxjs';
 
-@Component({
-  selector: 'app-login-signup',
-  imports: [],
-  templateUrl: './login-signup.component.html',
-  styleUrl: './login-signup.component.css'
+@Injectable({
+  providedIn: 'root'
 })
-export class LoginSignupComponent {
+export class LoginSignupService {
+  public login_url = "http://localhost:3000";
+  public reg_url = "http://localhost:3000";
 
-  public login_url = "http://localhost:3000"
-  public reg_url = "http://localhost:3000"
+  constructor(private http: HttpClient, private apiService: ApiService) { }
 
-  constructor(private http:HttpClient, private apiService:ApiService) {}
-  authLogin(user_name:any, password:any):Observable<any>{
-    return this.apiService.get(this.login_url+'/user?email='+user_name+'&password=+password');
+  authLogin(user_name: string, password: any): Observable<any> {
+    return this.apiService.get(`${this.login_url}/user?email=${user_name}&password=${password}`);
   }
 
-  userRegister(user_dto:any):Observable<any>{
-    return this.apiService.post(this.reg_url+'/user', user_dto)
+  userRegister(user_dto: any): Observable<any> {
+    return this.apiService.post(`${this.reg_url}/user`, user_dto);
   }
 
-  adminLogin(user_name:any, password:any):Observable<any>{
-    return this.apiService.get(this.login_url+'/user?email='+user_name+'&password='+password+'&role=admin');
+  adminLogin(user_name: string, password: any): Observable<any> {
+    return this.apiService.get(`${this.login_url}/user?email=${user_name}&password=${password}&role=admin`);
   }
 }
